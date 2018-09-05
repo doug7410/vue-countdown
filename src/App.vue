@@ -17,7 +17,7 @@
     data() {
       return {
         destination: 'New Zealand',
-        date: 'Tue Sep 29 2018 09:00:00 GMT-0400 (Eastern Daylight Time)',
+        date: 'Tue Sep 29 2018 19:45:00 GMT-0400 (Eastern Daylight Time)',
         image: 'new-zealand-2.jpg',
         images: [
           'new-zealand-2.jpg',
@@ -56,7 +56,7 @@
     computed: {
       tripDate() {
         const date = new Date(this.date)
-        return date.toDateString() +  ' - ' + date.toLocaleTimeString()
+        return date.toLocaleDateString() +  ' - ' + date.toLocaleTimeString()
       }
     }
   }
@@ -89,7 +89,7 @@
   }
 
   .description {
-    font-size: 1.4rem;
-    color: aliceblue;
+    font-size: 1.1rem;
+    color: #263238;
   }
 </style>
