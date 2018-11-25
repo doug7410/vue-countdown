@@ -19,51 +19,51 @@
         name: 'app',
         data() {
             return {
-                destination: 'New Zealand',
-                date: 'Sun Nov 25 2018 10:00:00 GMT-0400 (Eastern Daylight Time)',
+                destination: 'Angie Comes Home!!',
+                date: 'Sun Nov 25 2018 10:00:00 GMT-0500 (Eastern Daylight Time)',
                 image: {
-                    name: 'new-zealand-2.jpg',
+                    name: 'IMG_1682.jpg',
                     textColor: 'dark'
                 },
                 images: [
                     {
-                        name: 'new-zealand-2.jpg',
+                        name: 'IMG_1828.jpg',
                         textColor: 'dark'
                     },
                     {
-                        name: 'new-zealand-3.jpg',
+                        name: 'IMG_0990.jpg',
                         textColor: 'dark'
                     },
                     {
-                        name: 'new-zealand-4.jpg',
+                        name: 'IMG_1586.jpg',
                         textColor: 'light'
                     },
                     {
-                        name: 'new-zealand-5.jpg',
+                        name: 'IMG_2259.jpg',
                         textColor: 'dark'
                     },
                     {
-                        name: 'new-zealand-6.jpg',
+                        name: 'IMG_1544.jpg',
                         textColor: 'dark'
                     },
                     {
-                        name: 'new-zealand-8.jpg',
+                        name: 'IMG_5278.jpg',
                         textColor: 'dark'
                     },
                     {
-                        name: 'new-zealand-9.jpg',
+                        name: 'IMG_5233.jpg',
                         textColor: 'dark'
                     },
                     {
-                        name: 'new-zealand-10.jpg',
+                        name: 'IMG_1363.jpg',
                         textColor: 'light'
                     },
                     {
-                        name: 'new-zealand-11.jpg',
+                        name: 'IMG_1281.jpg',
                         textColor: 'dark'
                     },
                     {
-                        name: 'new-zealand-12.jpg',
+                        name: 'IMG_0986.jpg',
                         textColor: 'dark'
                     },
                 ]
@@ -95,7 +95,7 @@
                 return date.toLocaleDateString() + ' - ' + date.toLocaleTimeString()
             },
             imageUrl() {
-                return `http://res.cloudinary.com/dsteinberg/image/upload/c_scale,q_auto,w_1000/v1536159841/countdown/${this.image.name}`
+                return `https://res.cloudinary.com/dsteinberg/image/upload/c_scale,q_auto,w_1000/v1543115811/dougandangie/${this.image.name}`
             },
             textColor() {
                 if (this.image.textColor === 'dark') {
