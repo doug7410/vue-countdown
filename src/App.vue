@@ -20,7 +20,7 @@
         data() {
             return {
                 destination: 'New Zealand',
-                date: 'Tue Sep 29 2018 19:45:00 GMT-0400 (Eastern Daylight Time)',
+                date: 'Tue Sep 29 2019 19:45:00 GMT-0400 (Eastern Daylight Time)',
                 image: {
                     name: 'new-zealand-2.jpg',
                     textColor: 'dark'
