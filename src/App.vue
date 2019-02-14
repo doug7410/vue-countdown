@@ -20,32 +20,13 @@
         data() {
             return {
                 destination: 'New Zealand',
-                date: 'Tue Sep 29 2018 19:45:00 GMT-0400 (Eastern Daylight Time)',
+                date: 'Tue Sep 29 2019 19:45:00 GMT-0400 (Eastern Daylight Time)',
                 image: {
                     name: 'new-zealand-2.jpg',
                     textColor: 'dark'
                 },
                 images: [
-                    {
-                        name: 'new-zealand-2.jpg',
-                        textColor: 'dark'
-                    },
-                    {
-                        name: 'new-zealand-3.jpg',
-                        textColor: 'dark'
-                    },
-                    {
-                        name: 'new-zealand-4.jpg',
-                        textColor: 'light'
-                    },
-                    {
-                        name: 'new-zealand-5.jpg',
-                        textColor: 'dark'
-                    },
-                    {
-                        name: 'new-zealand-6.jpg',
-                        textColor: 'dark'
-                    },
+
                     {
                         name: 'new-zealand-8.jpg',
                         textColor: 'dark'
